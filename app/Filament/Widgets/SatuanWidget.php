@@ -28,7 +28,7 @@ class SatuanWidget extends BaseWidget
             //     // ->chart([5, 2, 4, 8, 15, 10])
             //     ->color('info'),
             Stat::make('Pegawai', Pegawai::count())
-                ->description('Pegawai KHP Datu Dana Suyasa')
+                ->description('Pegawai PT. AMI')
                 ->descriptionIcon('heroicon-m-user-group', IconPosition::Before)
                 // ->chart([5, 2, 4, 8, 15, 10])
                 ->color('danger'),
